@@ -33,6 +33,10 @@ header {
     margin-bottom: 20px;
 }
 
+.img-logo{
+    width: 15%;
+}
+
 /* nav {
     height: 70px;
     line-height: 70px;
@@ -85,10 +89,6 @@ nav li a {
 }
 
 /* debug - sezione che andrò ad elimininare */
-.debug #logo {
-    height: 70px;
-    background-color: green;
-}
 
 .debug nav {
     background-color:lightblue;
