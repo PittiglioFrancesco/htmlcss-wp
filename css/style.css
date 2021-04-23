@@ -72,14 +72,20 @@ nav li a {
     line-height: 1.6;
 }
 
-
-
 /* main */
+
 
 .col-sx, 
 .col-dx {
     width: 23%;
     float:left;
+}
+
+/* colonna sinistra */
+
+.img1{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .container-main {
@@ -98,26 +104,18 @@ nav li a {
     clear:both;
 }
 
-/* debug - sezione che andrò ad elimininare */
+/* footer */
 
-.debug .section-title{
-    height: 70px;
-    background-color: cyan;
+footer{
+    text-align: center;
 }
 
-.debug .col-sx,
-.debug .col-dx {
-    height: 500px;
-    background-color: yellow;
+.cuore{
+    color: red;
 }
 
-.debug .container-main {
-    height: 500px;
-    background-color: red;
-}
+/* colori */
 
-
-.debug footer{
-    height: 40px;
-    background-color: violet;
+.gray{
+    color: lightgray;
 }
