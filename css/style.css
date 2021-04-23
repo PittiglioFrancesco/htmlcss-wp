@@ -62,7 +62,17 @@ nav li a {
 
 .jumbotron {
     margin-top: 20px;
+    background-image: url(../img/banner.jpg);
+    background-size: contain;
+    padding: 500px 20px 50px 20px;
 }
+
+.jumbo{
+    color: white;
+    line-height: 1.6;
+}
+
+
 
 /* main */
 
@@ -89,16 +99,6 @@ nav li a {
 }
 
 /* debug - sezione che andrò ad elimininare */
-
-.debug nav {
-    background-color:lightblue;
-}
-
-.debug .jumbotron {
-    height: 400px;
-    background-color: tomato;
-}
-
 
 .debug .section-title{
     height: 70px;
