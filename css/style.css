@@ -63,7 +63,10 @@ nav li a {
 .jumbotron {
     margin-top: 20px;
     background-image: url(../img/banner.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid black;
     padding: 500px 20px 50px 20px;
 }
 
@@ -81,12 +84,31 @@ nav li a {
     float:left;
 }
 
-/* colonna sinistra */
+/* immagini */
 
 .img1{
     width: 100%;
     border-radius: 10px;
+    background-position: center;
+    height: 180px;
+    border: 1px solid black;
 }
+
+.left-img{
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+}
+.central-img{
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+}
+
+.right-img{
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+}
+
+/* colonne */
 
 .container-main {
     width: 50%;
@@ -104,6 +126,14 @@ nav li a {
     clear:both;
 }
 
+h4{
+    padding: 20px 0 10px;
+}
+
+p{
+    line-height: 1.6;
+}
+
 /* footer */
 
 footer{
@@ -117,5 +147,5 @@ footer{
 /* colori */
 
 .gray{
-    color: lightgray;
+    color: gray;
 }
